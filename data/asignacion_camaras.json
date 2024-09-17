@@ -1,0 +1,97 @@
+[
+    {
+        "nombre": "PAR CANTA",
+        "coords": [
+            -11.9682475,
+            -77.0836531
+        ],
+        "camaras_asignadas": [
+            "165 Av. Mara\u00f1on / Ca. 1",
+            "263 - Ca. 20 / Ca. Yaracmarca / Ref. Pisc. Santa Rosa",
+            "72 Av. Proceres de Huandoy CDRA 8 \u00a0/ Av. Mara\u00f1on",
+            "112 Jr. Yaracmarca / Calle. 19",
+            "71 Call. N\u00b0 31 / Av. Los Proceres de Huandoy CDRA 51",
+            "220 - Ca. 14 / Ca. 15",
+            "226-\u00a0Ca. 34 con Ca. 16 ref. Parque N\u00b01 de Laura Caller",
+            "232-\u00a0Av. Canta Callao con Ca.14",
+            "73 Av. Proceres de Huandoy CDRA 22 / Call. 40",
+            "235 - Calle 36 / Calle 39 / Parque N2 Laura Caller"
+        ]
+    },
+    {
+        "nombre": "PAR MAYOLO",
+        "coords": [
+            -11.9961656,
+            -77.0844153
+        ],
+        "camaras_asignadas": [
+            "16 Av. Universitaria CDRA 34/ Av. Antunez de Mayolo CDRA 16",
+            "214 - Ca. R\u00edo Santa / Ca. Huarmey",
+            "174 Av Universitaria (Parque El olivar)",
+            "173 Av. Mayolo/Jr. Huari",
+            "133 Calle 1440 y 1450 del Jr. Pallasca",
+            "55 Jr. Pomabamba / Call. Virgen del Carmen",
+            "54 Jr. 17 de Diciembre / Call. Chimbote",
+            "17 Av. Universitaria CDRA 37 / Av. Carlos Izaguirre CDRA 15",
+            "15 Av. Universitaria CDRA 20 / Calle Las Torres",
+            "171 Av. Izaguirre/Jr. Estibina"
+        ]
+    },
+    {
+        "nombre": "PAR CUETO",
+        "coords": [
+            -11.9820037,
+            -77.0724769
+        ],
+        "camaras_asignadas": [
+            "29 Av. Palmeras CDRA 45 \u00a0/ Alameda. Victoria Barcia Bonifati",
+            "138 Ca. Luz Casanova/Psje. El Lenguaje",
+            "229 -\u00a0Pj. Historia con Pj. Teresa G. Fanning ref. Parque Pedro Huilca",
+            "170 Ca Moron Mu\u00f1oz / Ca Mercedes indacochea",
+            "209 - Ca. 13 de Mayo / Alameda Victoria Barcia",
+            "212 - Jr. Teresa G. / Jr. Cultura",
+            "28 Av. Alisos \u00a0CDRA 7 / Av. Palmeras CDRA 43",
+            "59 Av. Palmeras CDRA 46 / Jr. Pariahuanca CDRA 7",
+            "271 - Pq. Micaela Bastidas / Huaca Aznapuquio",
+            "193 -\u00a0Jr Tarica / Jr Cajacay /Parque Cristo Rey"
+        ]
+    },
+    {
+        "nombre": "PAR BETA",
+        "coords": [
+            -12.0061434,
+            -77.071572
+        ],
+        "camaras_asignadas": [
+            "11 Av. Ang\u00e9lica Gamarra CDRA 8 / Av. Beta",
+            "93 Jr. Cajahuaman (Parque Beta)",
+            "90 Jr. Las Guayabas / Jr. Sim\u00f3n Bol\u00edvar",
+            "10 Av. Ang\u00e9lica Gamarra CDRA 5 / Calle 8",
+            "96 Calle 32 Mz. E Lt. 31 N\u00b02096 (PARQUE LOS BANCARIOS)",
+            "95 Jr. Antonio Cabo N\u00b0 843/ Calle 34",
+            "94 Av. Beta/ Jr. Los Girasoles",
+            "91 Jr. Juan Santos Atahualpa Mz. M / Jr. Los Pinos",
+            "87 Jr. Guayabas / Calle Los Guindones",
+            "217 - Ca. Taurija / Calle 2"
+        ]
+    },
+    {
+        "nombre": "PAR PEPES",
+        "coords": [
+            -12.0084663,
+            -77.0793484
+        ],
+        "camaras_asignadas": [
+            "216 - Ca. San Gabriel / Ca. Sta. Patricia",
+            "199 - Ca. Sta. Eulalia / Pj. sn / Parque Inmaculada Concepci\u00f3n",
+            "257 - Ca. B / Mercado Santa Rosa",
+            "244 - Ca. Daniel A. Carrion / pje 19 / Parque Daniel A. Carrion",
+            "45 Av. Universitaria CDRA 15 \u00a0/ Calle Santa rosa",
+            "13 Av. Ang\u00e9lica Gamarra CDRA 13 / Calle Cesar Vallejo",
+            "188 -\u00a0Calle 6 de Enero / Calle Conquistadores / Loza deportiva Villa Mercedes.",
+            "203 - Ca. Daniel A. Carri\u00f3n / Parque Nuevo Milenio",
+            "130 Mz C2 Lt. 8 / Villa Libertad",
+            "178 Av. Universitaria (I.E Daniel Alcides Carri\u00f3n)"
+        ]
+    }
+]
