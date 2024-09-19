@@ -5,7 +5,6 @@ import os
 router = APIRouter()
 
 # Ruta para asignar las 10 camaras mas cercanas
-
 @router.get("/asignar-camaras")
 def asignar_camaras():
     data_dir = 'data'  # Carpeta donde se almacenan los archivos KML
