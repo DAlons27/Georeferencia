@@ -3,7 +3,8 @@ import os
 import re
 import json
 
-def leer_kml(file_name):
+#Funcion para extraer las coordenadas
+def extraer_coordenadas(file_name):
     """
     Lee un archivo KML desde la carpeta data/ y extrae las coordenadas de las casetas y cámaras.
     Corrige el formato de las coordenadas invirtiendo el orden y eliminando el ",0".

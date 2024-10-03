@@ -4,7 +4,7 @@ import os
 # Agregar el directorio raíz al sys.path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from src.kml_parser import leer_kml
+from src.services.procesar_kml import leer_kml
 
 def test_kml_parser():
     """

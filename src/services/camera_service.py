@@ -1,26 +1,23 @@
 import json
 import numpy as np
 from scipy.spatial import KDTree
-from src.kml_parser import leer_kml
+from src.services.procesar_kml import extraer_coordenadas
 import os
 
 def asignar_camaras_service(kml_file):
-    # Paso 1: Leer y generar el archivo extracted_data.json desde el archivo KML
+    # Leer y generar el archivo extracted_data.json desde el archivo KML
+    # No estoy seguro de este try-except, pero lo dejo por si acaso
     try:
         # Intentamos leer el archivo KML y generar extracted_data.json
-        casetas, camaras = leer_kml(kml_file)
+        casetas, camaras = extraer_coordenadas(kml_file)
     except FileNotFoundError:
         return {"error": f"Archivo {kml_file} no encontrado."}
     except Exception as e:
         return {"error": f"Error procesando el archivo KML: {str(e)}"}
 
-    # Paso 2: Continuamos con la asignación de cámaras usando el archivo JSON generado
+    # Asignación de cámaras usando el archivo JSON generado
     file_path = os.path.join('data', 'extracted_data.json')
-    
-    # Verificamos si el archivo JSON existe
-    if not os.path.exists(file_path):
-        return {"error": "No se encontraron datos de casetas y cámaras para asignar."}
-    
+       
     # Leer los datos de casetas y cámaras desde el archivo JSON
     with open(file_path, 'r') as f:
         data = json.load(f)
